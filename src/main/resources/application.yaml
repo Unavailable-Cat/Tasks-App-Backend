@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: tasks
+  datasource:
+    url: ${DataSource_url}
+    username: ${DataSource_username}
+    password: ${DataSource_password}
+    driver-class-name: ${DataSource_driver}
+  jpa:
+    hibernate:
+      ddl-auto: update
+Frontend:
+  url: ${Frontend_url}
